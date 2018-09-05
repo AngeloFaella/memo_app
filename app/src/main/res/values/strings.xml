@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Memo</string>
+    <string name="notes_file">Notes.</string>
+
+    <string name="search">Cerca nota . . .</string>
+    <string name="add_note">Nuova nota</string>
+
+    <string name="list">Elenco</string>
+    <string name="Image">Immagine</string>
+    <string name="format">Formato</string>
+    <string name="done">Salva</string>
+    <string name="title">Titolo</string>
+
+    <string name="delete">ELIMINA</string>
+    <string name="cancel">ANNULLA</string>
+
+    <string name="warning">Attenzione</string>
+    <string name="error">Errore</string>
+    <string name="alert_delete_memo">Vuoi eliminare questo promemoria?</string>
+    <string name="alert_note_title">La nota deve avere un titolo</string>
+    <string name="alert_note_already_exists">Nota non salvata. Esiste già una nota con lo stesso titolo</string>
+    <string name="alert_save_changes">Salvare le modifiche?</string>
+    <string name="alert_save_note">Vuoi salvare questa nota?</string>
+    <string name="answer_yes">Si, salva</string>
+    <string name="answer_delete_yes">Si, elimina</string>
+
+    <string name="dictation">Dettatura</string>
+    <string name="speech_note">Detta nota</string>
+
+    <string name="Reminder">Notifica</string>
+    <string name="memo">Promemoria</string>
+    <string name="set_notification">Imposta notifica</string>
+    <string name="set_date">Imposta data</string>
+    <string name="set_time">Imposta orario</string>
+    <string name="notification_error">Errore: notifica non impostata</string>
+    <string name="notification_canceled">Promemoria eliminato</string>
+    <string name="notification_set">Notifica impostata</string>
+    <string name="reminder_description">Configura il promemoria relativo a questa nota</string>
+    <string name="reminder_description_2">Se <b>elimini</b> questa nota, il promemoria verrà automaticamente annullato.\n\nPotrai <b>modificare</b> il promemoria in ogni momento.</string>
+    <string name="bold">Grassetto</string>
+    <string name="italic">Corsivo</string>
+    <string name="done_formatting">Fatto</string>
+    <string name="heading">Titolo</string>
+
+
+</resources>

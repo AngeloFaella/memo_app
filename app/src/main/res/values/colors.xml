@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1b1b1b</color>
+    <color name="colorPrimaryDark">#1b1b1b</color>
+    <color name="colorAccent">#FF3C8A</color>
+    <color name="MemoYellow">#FFCC66</color>
+
+    <color name="colorListItem">#333333</color>
+    <color name="colorToolbar">#0D0D0D</color>
+
+</resources>

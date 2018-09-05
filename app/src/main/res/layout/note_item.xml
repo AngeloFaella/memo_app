@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!-- background
+    <android.support.v7.widget.CardView
+        android:id="@+id/background_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="7dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:alpha="0.75"
+                android:background="@color/colorAccent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:id="@+id/view" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:textAppearance="@style/labelWhite"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/delete"
+                android:drawableRight="@drawable/icon_delete_item"
+                android:layout_marginRight="10dp"
+                android:drawablePadding="8dp"
+                android:gravity="center"
+                app:layout_constraintRight_toRightOf="@+id/view"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginTop="8dp" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+    -->
+
+    <!-- foreground -->
+    <android.support.v7.widget.CardView
+        android:id="@+id/foreground_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@color/colorListItem"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="7dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:padding="3dp">
+
+            <ImageView
+                android:id="@+id/pin"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/pin_yellow"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginLeft="4dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/labelWhite"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:text="Titolo nota"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="0dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                app:layout_constraintLeft_toRightOf="@id/pin"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/labelWhite"
+                android:text="00/00/00"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="5dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                app:layout_constraintLeft_toRightOf="@id/pin"
+                app:layout_constraintTop_toBottomOf="@id/title"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+            <ImageView
+                android:id="@+id/bell_icon"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/icon_bell"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</FrameLayout>
