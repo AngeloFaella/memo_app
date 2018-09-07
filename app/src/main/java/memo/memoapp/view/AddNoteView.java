@@ -107,7 +107,7 @@ public class AddNoteView extends AbstractView {
             }
         });
 
-        // text formatting
+        /* text formatting
         final View formatLayout = root.findViewById(R.id.text_shortcut);
         final View format = root.findViewById(R.id.shortcut_format);
         format.setOnClickListener(new View.OnClickListener() {
@@ -118,7 +118,7 @@ public class AddNoteView extends AbstractView {
                 // show html shortcuts
                 circleAnimation(c[0],c[1], MODE_REVEAL,formatLayout);
             }
-        });
+        }); */
         // add reminder
         View reminder = root.findViewById(R.id.shortcut_notification);
         reminder.setOnClickListener(new View.OnClickListener() {
@@ -142,7 +142,7 @@ public class AddNoteView extends AbstractView {
         });
 
         //set up html shortcuts
-        initHTMLshortcuts(formatLayout);
+        //initHTMLshortcuts(formatLayout);
     }
 
     private void initHTMLshortcuts(final View formatLayout){

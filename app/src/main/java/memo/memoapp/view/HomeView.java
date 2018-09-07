@@ -55,8 +55,8 @@ public class HomeView extends AbstractView implements Observer, ItemOnTouchListe
         final Toolbar myToolbar=(Toolbar)root.findViewById(R.id.toolbar_home);
         controller.setSupportActionBar(myToolbar);
         controller.getSupportActionBar().setDisplayShowTitleEnabled(false);
-        controller.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        controller.getSupportActionBar().setHomeAsUpIndicator(R.drawable.icon_menu);
+        /*controller.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        controller.getSupportActionBar().setHomeAsUpIndicator(R.drawable.icon_menu);*/
 
         //new note
         FloatingActionButton fab = (FloatingActionButton)root.findViewById(R.id.fab_newNote);
