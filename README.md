@@ -8,7 +8,7 @@ I made (and currently I'm updating) this app as exercise on UI/UX design and Not
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Usage
+## Screenshots
 Screenshots
 
 ## Contributing
@@ -22,4 +22,4 @@ Any contributions, large or small, major features, bug fixes, unit/integration t
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details
