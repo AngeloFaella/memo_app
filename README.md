@@ -5,7 +5,7 @@ I made (and currently I'm updating) this app as exercise on UI/UX design and Not
 
 
 ## Download
-Check the ![Release page](https://github.com/AngeloFaella/memo_app/releases) to download the latest version.
+Check the [Release page](https://github.com/AngeloFaella/memo_app/releases) to download the latest version.
 
 ## Screenshots
 ![Home](home.png) ![Note](nota.png) ![Reminder](notifica.png)
